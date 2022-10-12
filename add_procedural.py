@@ -12,11 +12,7 @@ if int(y) < 0:
     exit()
 else:
     print("second value is" + y)
-# floor division two numbers and store result
+# add two numbers and store result
 print("results")
 z = (int(x) + int(y))
-# print result
-if z < 0:
-    print(-z)
-else:
-    print(z)
+
