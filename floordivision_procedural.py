@@ -1,18 +1,22 @@
 
-# Get the first number
-x = 30
+x = input("enter first input")
+if int(x) < 0:
+    print (" please enter a positive number")
+    exit()
+else:
+    print("first value is" + x)
 # Get the second number
-y = 12
-# Divide two numbers and store the answer only without remainder
-z = (x // y)
+y = input("enter second input")
+if int(y) < 0:
+    print (" please enter a positive number")
+    exit()
+else:
+    print("second value is" + y)
+# floor division two numbers and store result
+print("results")
+z = (int(x) // int(y))
 # print result
-print(z)
-
-# Get the first number
-x = 18
-# Get the second number
-y = 20
-# Divide two numbers and store the answer only without remainder
-z= (x // y)
-# print result
-print(z)
+if z < 0:
+    print(-z)
+else:
+    print(z)

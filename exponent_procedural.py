@@ -1,18 +1,22 @@
 
-# Get the first number
-x = 5
+x = input("enter first input")
+if int(x) < 0:
+    print (" please enter a positive number")
+    exit()
+else:
+    print("first value is" + x)
 # Get the second number
-y = 2
-# Get the exponent of two numbers and store result
-Z = (x ** y)
+y = input("enter second input")
+if int(y) < 0:
+    print (" please enter a positive number")
+    exit()
+else:
+    print("second value is" + y)
+# floor division two numbers and store result
+print("results")
+z = (int(x) ** int(y))
 # print result
-print (Z)
-
-# Get the first number
-x = 2
-# Get the second number
-y = 5
-# Get the exponent of two numbers and store result
-Z= (x ** y)
-# print result
-print (Z)
+if z < 0:
+    print(-z)
+else:
+    print(z)
