@@ -17,7 +17,4 @@ print("results")
 print("results")
 z = (int(x) * int(y))
 # print result
-if z < 0:
-    print(-z)
-else:
-    print(z)
+print(z)

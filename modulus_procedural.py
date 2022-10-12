@@ -19,6 +19,7 @@ print("results")
 #  Divide two numbers and store quotient
 z= int(x)%int(y)
 
+# print result
 print(z)
 
 
