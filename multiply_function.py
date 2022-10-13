@@ -1,23 +1,16 @@
 
 def multiply_numbers(x,y):
-    x = input("enter first input")
-    if int(x) < 0:
-        print(" please enter a positive number")
-        exit()
-    else:
-        print("first value is" + x)
-    # Get the second number
-    y = input("enter second input")
-    if int(y) < 0:
-        print(" please enter a positive number")
-        exit()
-    else:
-        print("second value is" + y)
-    # add two numbers and store result
-    print("results")
-    z = (int(x) * int(y))
-    print(z)
+    z = int(x) * int(y)
+    print(int(z))
 
-    return z
+    x = input("Enter first value")
+    y = input("Enter Second Value")
+    if (int(x) <= 0 or int(y) <= 0):
+        print(" please enter a positive number")
+        exit()
+    else:
+        z = int(x) * int(y)
+        print(x,"x",y,"=",int(z))
+
 
 multiply_numbers(18,20)
