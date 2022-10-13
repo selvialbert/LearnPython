@@ -1,23 +1,17 @@
 
 def subtract_numbers(x,y):
-    x = input("enter first input")
-    if int(x) < 0:
-        print(" please enter a positive number")
-        exit()
-    else:
-        print("first value is" + x)
-    # Get the second number
-    y = input("enter second input")
-    if int(y) < 0:
-        print(" please enter a positive number")
-        exit()
-    else:
-        print("second value is" + y)
-    # subtract two numbers and store result
-    print("results")
     z = int(x) - int(y)
-    print(z)
+    print(int(z))
 
-    return z
+    x = input("Enter first value")
+    y = input("Enter Second Value")
+    if (int(x)<=0 or int(y)<=0):
+        print(" please enter a positive number")
+        exit()
+    else:
+         z = int(x) - int(y)
+         print(int(z))
+
+subtract_numbers(10,20)
 
 
