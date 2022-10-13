@@ -17,15 +17,15 @@ def divide(x, y):
     return x / y
 
 # This function exponentiates two numbers
-def exponents(x, y):
+def squarepower(x, y):
     return x ** y
 
 # This function calculates remainder of two numbers when divided
-def modulus(x, y):
+def remainder(x, y):
     return x % y
 
 # This function calculates quotient of two numbers when divided
-def floordivision(x, y):
+def quotient(x, y):
     return x % y
 
 # show the choice to user
@@ -34,9 +34,9 @@ print("(1) Add (+)")
 print("(2) Subtract (-)")
 print("(3) Multiply (*)")
 print("(4) Divide (/)")
-print("(5) Exponent (^)")
-print("(6) Modulus (%)")
-print("(7) Floor Division (//)")
+print("(5) Find Remainder (%)")
+print("(6) Find Quotient (//)")
+print("(7) Find Square of a number (**)")
 
 
 while True:
@@ -70,13 +70,13 @@ while True:
             print(num1, "/", num2, "=", divide(num1, num2))
 
         elif choice == '5':
-            print(num1, "/", num2, "=", exponents(num1, num2))
+            print(num1, "/", num2, "=", remainder(num1, num2))
 
         elif choice == '6':
-            print(num1, "/", num2, "=", modulus(num1, num2))
+            print(num1, "/", num2, "=", quotient(num1, num2))
 
         elif choice == '7':
-            print(num1, "/", num2, "=", floordivision(num1, num2))
+            print(num1, "/", num2, "=", squarepower(num1, num2))
 
 
         # check if user wants another calculation
