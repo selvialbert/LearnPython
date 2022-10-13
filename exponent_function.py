@@ -1,5 +1,5 @@
 
-def exponent_numbers(x,y):
+def square_numbers(x,y):
     x = input("Enter first value")
     y = input("Enter Second Value")
     if (int(x) <= 0 or int(y) <= 0):
@@ -9,4 +9,4 @@ def exponent_numbers(x,y):
         z = int(x) ** int(y)
         print(x, "^", y, "=", int(z))
 
-exponent_numbers(2,5)
+square_numbers(2,5)
