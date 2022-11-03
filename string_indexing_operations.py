@@ -3,7 +3,11 @@ def string_index_ops():
     string_value = str(input())
     print(f'You entered : '+string_value)
     print('-------------------------------------')
+<<<<<<< HEAD
     print("First character in '{1}' is '{0}'".format(string_value[0], string_value))
+=======
+    print("First character in '{1}' is '{0}'".format(string_value[1], string_value))
+>>>>>>> a4b63ae (Initial version string_indexing_operations)
     print('-------------------------------------')
     print("Last character in '{1}' is '{0}'".format(string_value[-1], string_value))
     print('-------------------------------------')
