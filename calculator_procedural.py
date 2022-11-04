@@ -38,10 +38,10 @@ elif choice == '5':
             print(num1, "/", num2, "=", num1%num2)
 
 elif choice == '6':
-            print(num1, "/", num2, "=", num1//num2)
+            print(num1, "//", num2, "=", num1//num2)
 
 elif choice == '7':
-            print(num1, "/", num2, "=", num1**num2)
+            print(num1, "**", num2, "=", num1**num2)
 
 else:
     exit()
