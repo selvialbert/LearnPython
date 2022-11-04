@@ -3,7 +3,7 @@ def string_index_ops():
     string_value = str(input())
     print(f'You entered : '+string_value)
     print('-------------------------------------')
-    print("First character in '{1}' is '{0}'".format(string_value[1], string_value))
+    print("First character in '{1}' is '{0}'".format(string_value[0], string_value))
     print('-------------------------------------')
     print("Last character in '{1}' is '{0}'".format(string_value[-1], string_value))
     print('-------------------------------------')
