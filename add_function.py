@@ -1,23 +1,12 @@
 
 def add_numbers(x,y):
-    x = input("enter first input")
-    if int(x) < 0:
+    x = input("Enter first value")
+    y = input("Enter Second Value")
+    if (int(x) <= 0 or int(y) <= 0):
         print(" please enter a positive number")
         exit()
     else:
-        print("first value is" + x)
-    # Get the second number
-    y = input("enter second input")
-    if int(y) < 0:
-        print(" please enter a positive number")
-        exit()
-    else:
-        print("second value is" + y)
-    # add two numbers and store result
-    print("results")
-    z = (int(x) + int(y))
-    print (z)
+        z = int(x) + int(y)
+        print(x, "+", y, "=", int(z))
 
-    return z
-
-add_numbers(18,20)
+add_numbers(10,20)
