@@ -7,18 +7,18 @@ def list_index_ops():
     list = my_list + my_list1
     print(list)
     print('-------------------------------------')
-    print("First character in '{1}' is '{0}'".format(list[0], list))
+    print("First item in the list '{1}' is '{0}'".format(list[0], list))
     print('-------------------------------------')
-    print("Last character in '{1}' is '{0}'".format(list[-1], list))
+    print("Last item in the list '{1}' is '{0}'".format(list[-1], list))
     print('-------------------------------------')
-    print("Length of string '{1}' is '{0}'".format(len(list), list))
+    print("Length of the list is '{1}' is '{0}'".format(len(list), list))
     print('-------------------------------------')
-    print("Mid index is {0}".format(int(len(list)/2)))
+    print("Mid item's index in the list is {0}".format(int(len(list)/2)))
     print('-------------------------------------')
     mi = int(len(list)/2)
     if len(list)%2 == 0:
-        print("Middle character of '{1}' are {0} and {2}".format(list[mi-1], list,list[mi]))
+        print("Middle item of the list is '{1}' are {0} and {2}".format(list[mi-1], list,list[mi]))
     else:
-        print("Middle character of '{1}' is {0}".format(list[mi], list))
+        print("Middle item(s) of the list are '{1}' is {0}".format(list[mi], list))
 
 list_index_ops()
